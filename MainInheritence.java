@@ -15,8 +15,8 @@ class PersonalInfo {
 }
 
 class AcademicInfo extends PersonalInfo {
-    private String enrollmentNumber;
-    private String result;
+    public String enrollmentNumber;
+    public String result;
 
     public AcademicInfo(String name, int age, String address, String phoneNumber, String enrollmentNumber, String result) {
         super(name, age, address, phoneNumber);
