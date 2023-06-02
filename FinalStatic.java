@@ -22,12 +22,12 @@ public class FinalStatic {
 
 //        System.out.println("The constant value is: " + ExampleClass.simpleVariable);
 
-        System.out.println("The static variable is: " + ExampleClass.staticVariable);
-        System.out.println("Modifying the static variable...");
-        ExampleClass.staticVariable = 30;
-        System.out.println("The modified static variable is: " + ExampleClass.staticVariable);
+//        System.out.println("The static variable is: " + ExampleClass.staticVariable);
+//        System.out.println("Modifying the static variable...");
+//        ExampleClass.staticVariable = 30;
+//        System.out.println("The modified static variable is: " + ExampleClass.staticVariable);
         
-        System.out.println("");
+//        System.out.println("");
 
         System.out.println("Calling the static method...");
         ExampleClass.staticMethod();
