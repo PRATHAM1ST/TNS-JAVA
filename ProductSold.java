@@ -1,4 +1,21 @@
 package student;
+
+//Create a class called Product with the following attributes and methods:
+//
+//Attributes:
+//name (String)
+//price (double)
+//quantity (int)
+//totalSold (static int)
+//Methods:
+//void sell(int quantity): This method should decrease the quantity of the product by the given quantity and update the totalSold static variable accordingly.
+//static int getTotalSold(): This method should return the total quantity of products sold so far.
+//In the Main class, test the Product class by doing the following:
+//Create multiple instances of Product and set their name, price, and quantity.
+//Call the sell() method for some of the product instances to simulate selling them.
+//Print the total quantity of products sold using the getTotalSold() method.
+//Write the code to solve the problem
+
 class Product {
     private String name;
     private double price;
